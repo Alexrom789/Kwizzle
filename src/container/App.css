@@ -1,0 +1,262 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Main-title {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: white;
+  display: inline-block
+}
+
+.Title {
+  padding-top: 45px;
+  padding-bottom: 25px;
+  color: white;
+  display: inline-block;
+  font-size: 25px;
+}
+
+
+.DeckHeader {
+  display:inline-block;
+  width: 400px;
+}
+
+
+.App-intro {
+  font-size: large;
+}
+
+.DeckBox {
+  /*display: flex;*/
+  background-color: gold;
+  padding: 20px;
+  width:200px;
+  margin: 5px 5px 20px 20px;
+  float:left;
+  font-size: .8em;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+  border-radius:25px;
+}
+
+.DeckBox:hover {
+  box-shadow: 5px 5px 15px#57e72b;;
+}
+
+.MainDiv {
+  margin-left: 200px; 
+  text-align: center;
+}
+
+.FlashCardFront {
+  width:600px;
+  height:250px;
+  background-color: aliceblue;
+  margin: auto;
+  margin-top: 10px;
+  border-radius:25px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+}
+
+.FlashCardBack{
+  width:600px;
+  height:250px;
+  background-color: aliceblue;
+  margin: auto;
+  margin-top: 10px;
+  border-radius:25px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+}
+
+.FlashCardFront p{
+  padding-top: 12%;
+  font-size: 70px;
+}
+
+.FlashCardBack p{
+  padding-top: 5%;
+  font-size: 20px;
+}
+
+.FlashCardBack h4{
+  padding-top: 5%;
+  font-size: 30px;
+}
+
+.ProgBarsDiv {
+  width:600px;
+  height:100px;
+  background-color: #2196f3;
+  margin: auto;
+  margin-top: 40px;
+  
+}
+
+.GlyphL{
+  color: #ffd700;
+  font-size: 40px;
+  float: left;
+  padding-top: 42px;
+  padding-bottom: 25px;
+}
+
+.GlyphR{
+  color: #ffd700;
+  font-size: 40px;
+  float: right; 
+  padding-top: 42px;
+  padding-bottom: 25px;
+}
+
+.Divider{
+  width:10px;
+  height:auto;
+  display:inline-block;
+}
+
+.DividerS{
+  width:5px;
+  height:auto;
+  display:inline-block;
+}
+
+.ButtonsDiv {
+  width:600px;
+  height:50px;
+  background-color: #2196f3;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.btns {
+  width: 100px !important;
+}
+
+.createBtn {
+  float: right;
+}
+
+.well {
+  overflow: scroll;
+}
+
+.NavBar{
+  background: #2196f3;
+  width:60%;
+  height: 40px;
+  position: static; 
+  margin: 0 auto 10px;
+  font-size: 30px;
+  text-align: left;
+  color: aliceblue;
+}
+
+.pullRight{
+  float: right;
+}
+
+.new{
+  color:red;
+}
+
+.reviewing{
+  color:gold;
+}
+
+img.animated-gif{
+  width: 250px;
+  height: auto;
+}
+
+.modalBack{
+  background-color: #ffd700;
+}
+
+.modalBody{
+  background-color:#3897f0;
+}
+
+
+
+/*.WelcomeBox {
+  position: relative;
+  top: 10%;
+  left: 40%;
+  background-color: #2196f3;
+  width:500px;
+}*/
+
+/* The sidebar menu */
+.SideNav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar -orig 160 */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #1976D2; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+.SideNav h1{
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* The navigation menu links */
+.SideNav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  text-align: left;
+}
+
+/* When you mouse over the navigation links, change their color */
+.SideNav a:hover {
+  color: #ffd700;
+}
+
+ul{ 
+  list-style-type: none; 
+  text-align: left;
+}
+
+
+
+
+/* Style page content */
+/*.main {
+  margin-left: 160px; //Same as the width of the sidebar 
+  padding: 0px 10px;
+}*/
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .SideNav {padding-top: 15px;}
+  .SideNav a {font-size: 18px;}
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
